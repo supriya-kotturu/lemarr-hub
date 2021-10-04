@@ -4,8 +4,7 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import { grey, lightGreen } from '@mui/material/colors';
-
+import { green, blueGrey } from '@mui/material/colors';
 import TemporaryDrawer from '../UI/TemporaryDrawer';
 
 export default function LemarrHubAppBar({ toggleDrawer }) {
@@ -17,8 +16,8 @@ export default function LemarrHubAppBar({ toggleDrawer }) {
         sx={{
           height: 80,
           justifyContent: 'center',
-          background: grey[800],
-          color: lightGreen.A400,
+          background: blueGrey[900],
+          color: green.A400,
         }}
       >
         <Toolbar>
